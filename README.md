@@ -42,12 +42,12 @@ Alternatively, you can include Video.js by getting it from [npm](https://videojs
 <script src="https://unpkg.com/video.js/dist/video.min.js"></script>
 
 <!-- unpkg : use a specific version of Video.js (change the version numbers as necessary) -->
-<link href="https://unpkg.com/video.js@8.23.9/dist/video-js.min.css" rel="stylesheet">
-<script src="https://unpkg.com/video.js@8.23.9/dist/video.min.js"></script>
+<link href="https://unpkg.com/video.js@8.24.0/dist/video-js.min.css" rel="stylesheet">
+<script src="https://unpkg.com/video.js@8.24.0/dist/video.min.js"></script>
 
 <!-- cdnjs : use a specific version of Video.js (change the version numbers as necessary) -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/video.js/8.23.9/video-js.min.css" rel="stylesheet">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/8.23.9/video.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/video.js/8.24.0/video-js.min.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/8.24.0/video.min.js"></script>
 ```
 
 Next, using Video.js is as simple as creating a `<video>` element, but with an additional `data-setup` attribute. At a minimum, this attribute must have a value of `'{}'`, but it can include any Video.js [options][options] - just make sure it contains valid JSON!
